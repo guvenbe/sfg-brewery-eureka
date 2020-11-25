@@ -108,7 +108,12 @@
 
 	<profiles>
 		<profile>
-			<id>ossrh</id>
+			<id>dockerbuild</id>
+			<activation>
+				<file>
+					<exists>src/main/docker/Dockerfile</exists>
+				</file>
+			</activation>
 			<build>
 				<plugins>
 					<plugin>
