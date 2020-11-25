@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>sfg-brewery-eureka</artifactId>
-    <version>1.0.54</version>
+    <version>1.0.55-SNAPSHOT</version>
     <name>sfg-brewery-eureka</name>
     <description>Eureka Service Discovery</description>
 
